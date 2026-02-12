@@ -1,0 +1,22 @@
+{
+  "RunDate": "2026-02-12",
+  "AgenticLoop": {
+    "Steps": [
+      "Ingest backlog",
+      "Normalize + enrich",
+      "Prioritize by risk + exposure",
+      "Generate remediation plan + change ticket draft",
+      "Require human approval gate",
+      "Package evidence + validation checklist",
+      "Output executive summary + KPIs"
+    ],
+    "ApprovalGate": "Human-in-the-loop: remediation execution requires explicit approval (Change Mgmt)."
+  },
+  "ScoringWeights": {
+    "CVSS": 6,
+    "ExploitAvailable": 3,
+    "InternetFacing": 3,
+    "DataSensitivity": 2,
+    "OperationalRisk": 1
+  }
+}
