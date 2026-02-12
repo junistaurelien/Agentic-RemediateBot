@@ -1,0 +1,51 @@
+{
+  "PackName": "EvidencePack-2026-02-12",
+  "Created": "2026-02-12",
+  "Notes": "Simulated evidence pack manifest. Extend by collecting EDR triage, patch logs, and change approvals.",
+  "Items": [
+    {
+      "Asset": "WEB-SRV-01",
+      "CVE": "CVE-2023-1234",
+      "Priority": "P1",
+      "EvidenceSuggested": [
+        "Before/after patch version output",
+        "Change approval record",
+        "Service health check screenshot",
+        "EDR telemetry confirming clean status"
+      ]
+    },
+    {
+      "Asset": "DB-SRV-02",
+      "CVE": "CVE-2022-5678",
+      "Priority": "P2",
+      "EvidenceSuggested": [
+        "Before/after patch version output",
+        "Change approval record",
+        "Service health check screenshot",
+        "EDR telemetry confirming clean status"
+      ]
+    },
+    {
+      "Asset": "FIN-WS-014",
+      "CVE": "CVE-2024-7788",
+      "Priority": "P3",
+      "EvidenceSuggested": [
+        "Before/after patch version output",
+        "Change approval record",
+        "Service health check screenshot",
+        "EDR telemetry confirming clean status"
+      ]
+    },
+    {
+      "Asset": "APP-SRV-03",
+      "CVE": "CVE-2021-4321",
+      "Priority": "P4",
+      "EvidenceSuggested": [
+        "Before/after patch version output",
+        "Change approval record",
+        "Service health check screenshot",
+        "EDR telemetry confirming clean status"
+      ]
+    }
+  ]
+}
